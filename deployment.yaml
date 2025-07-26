@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: my-portfolio
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: my-portfolio
+  template:
+    metadata:
+      labels:
+        app: my-portfolio
+    spec:
+      containers:
+      - name: nginx
+        image: vishal108/my-portfolio:latest
+        ports:
+        - containerPort: 80
+
