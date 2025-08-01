@@ -5,48 +5,77 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Sunil Margale | Portfolio</title>
   <style>
-    * {
+    body {
       margin: 0;
       padding: 0;
-      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #fff;
+      color: #0f0f0f;
     }
 
-    body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background: linear-gradient(135deg, #f0f4f8, #d9e2ec);
-      height: 100vh;
+    header {
       display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 50px;
+      background-color: #ffffff;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    }
+
+    .logo {
+      font-size: 24px;
+      font-weight: bold;
+      letter-spacing: 1px;
+    }
+
+    nav a {
+      margin-left: 25px;
+      text-decoration: none;
+      font-weight: 500;
+      color: #1a1a1a;
+    }
+
+    nav a:hover {
+      color: #007acc;
+    }
+
+    main {
+      display: flex;
+      flex-direction: column;
       align-items: center;
       justify-content: center;
-      color: #333;
-    }
-
-    .container {
-      background-color: #fff;
-      padding: 40px 60px;
-      border-radius: 12px;
-      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+      height: 80vh;
       text-align: center;
     }
 
-    h1 {
-      font-size: 2.5rem;
+    main h2 {
+      font-size: 28px;
       margin-bottom: 10px;
-      color: #1f2937;
     }
 
-    p {
-      font-size: 1.1rem;
-      color: #4b5563;
+    main h1 {
+      font-size: 48px;
+      font-weight: 700;
+      color: #0a0a0a;
     }
   </style>
 </head>
 <body>
-  <div class="container">
-    <h1>Hello, world!</h1>
-    <p>My name is <strong>Sunil Margale</strong>. Welcome to my portfolio site.</p>
-  </div>
+
+  <header>
+    <div class="logo">My Port folio</div>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Projects</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Hello, my name is</h2>
+    <h1>Sunil Margale</h1>
+  </main>
+
 </body>
 </html>
-
-
