@@ -90,5 +90,5 @@ text
 
 #✍️ Credits
 
-Developed by **Vishal Lokhande**  
-Feel free to connect with me on www.linkedin.com/in/vishal-lokhande-devops-engineer.
+Developed by **Sunil Margale**  
+Feel free to connect with me on www.linkedin.com/in/sunilmargale2706.
